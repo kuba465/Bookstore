@@ -114,7 +114,7 @@ $(function () {
         });
     });
 
-    //function adding row to list
+    //function adding book to list
     function addBook(newBook) {
         //pamiętaj że tutaj w stringu nie ma apostrofa(') tylko ` żeby można było stworzyć dynamicznego stringa
         var book = `<li class="list-group-item">
@@ -134,7 +134,7 @@ $(function () {
     }
 
 
-    //function adding element to select list
+    //function adding book to select list
     function addElementToSelect(newElement) {
         var edit = $('#bookEditSelect');
         edit.append('<option value="' + newElement.id + '">' + newElement.title + '</option>');
