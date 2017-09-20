@@ -35,6 +35,9 @@
 }
 
 #bookEdit {
+
+}
+#bookEdit, #authorEdit {
     display : none;
 }
 
