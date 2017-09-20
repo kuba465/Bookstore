@@ -58,7 +58,7 @@ $(function () {
         });
     });
 
-    //show and fill form of author edit and author book
+    //show and fill form of author edit and edit author
     var select = $('#authorEditSelect');
     select.on('click', $('option'), function () {
         var authorId = $(this).val();
@@ -101,7 +101,6 @@ $(function () {
 
     //function adding author to list
     function addAuthor(newAuthor) {
-        //pamiętaj że tutaj w stringu nie ma apostrofa(') tylko ` żeby można było stworzyć dynamicznego stringa
         var author = `<li class="list-group-item">
                         <div class="panel panel-default">
                             <div class="panel-heading">
