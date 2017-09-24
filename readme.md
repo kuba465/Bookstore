@@ -1,8 +1,6 @@
 <img alt="Logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="400">
 
-# PHP - Warsztat 3
-
-### Bookstore by Jakub Paluszkiewicz
+# Bookstore by Jakub Paluszkiewicz
 
 ### Bookstore is using API REST
 
