@@ -2,6 +2,8 @@
 
 # Bookstore by Jakub Paluszkiewicz
 
+## Project that I created during my course in CodersLab
+
 ### Bookstore is using API REST
 
 ### Functionals:
